@@ -10,12 +10,14 @@
 <body>
     <h1>Sistema de cálculo de de impuesto anual para cada cliente</h1>
     <form action="">
-        <p>
-            Ingresa el nombre del cliente: <input type="text" id="nombre"> <br>
-            Ingresa el total de ingresos <input type="text" id="monto">
-            Ingrese monto de las deducciones <input type="text" id="deducciones">
-            <button id="calcular">Click para calcular</button>
-        </p>
+        <label for="">Ingresa el nombre del cliente:</label>
+        <input type="text" id="nombre"> <br>
+        <label for="">Ingresa el total de ingresos</label>
+        <input type="text" id="monto"> <br>
+        <label for="">Monto de las deducciones:</label>
+        <p id="deducciones"></p>
+        <button id="calcularDe">Click para calcular las deducciones (19%)</button> <br>
+        <button id="calcular">Click para calcular impuestos</button> 
     </form>
     <div>
         <p>
